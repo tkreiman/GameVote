@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190951231C628F7D0040CC91 /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190951221C628F7D0040CC91 /* AddQuestionViewController.swift */; };
+		190D648B1CDE5F3D00BFC457 /* DrawHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190D648A1CDE5F3D00BFC457 /* DrawHamburger.swift */; };
+		190D648D1CDE5F7300BFC457 /* CustomBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190D648C1CDE5F7300BFC457 /* CustomBarButtonItem.swift */; };
+		19316A6B1CF0D0130060DEBD /* DrawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19316A6A1CF0D0130060DEBD /* DrawButton.swift */; };
+		19316A6D1CF0D0400060DEBD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19316A6C1CF0D0400060DEBD /* CustomButton.swift */; };
+		1936F9D61C51B01100DA5DF6 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936F9D51C51B01100DA5DF6 /* AddGameViewController.swift */; };
 		193C21921C4C4EA600153F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C21911C4C4EA600153F0B /* AppDelegate.swift */; };
 		193C21941C4C4EA600153F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C21931C4C4EA600153F0B /* ViewController.swift */; };
-		193C21971C4C4EA600153F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193C21951C4C4EA600153F0B /* Main.storyboard */; };
 		193C21991C4C4EA600153F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193C21981C4C4EA600153F0B /* Assets.xcassets */; };
 		193C219C1C4C4EA600153F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193C219A1C4C4EA600153F0B /* LaunchScreen.storyboard */; };
+		1943B8EE1D08D628003EA48D /* ScoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943B8ED1D08D628003EA48D /* ScoreHelper.swift */; };
+		1951E78C1CD17B4200465DCE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951E78B1CD17B4200465DCE /* ChatViewController.swift */; };
+		1952297A1C5584AE00507706 /* SelectedQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195229791C5584AE00507706 /* SelectedQuestionViewController.swift */; };
+		19645DDF1C4DAD4800798506 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DDE1C4DAD4800798506 /* Bolts.framework */; };
+		19645DE11C4DAD6500798506 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DE01C4DAD6500798506 /* Parse.framework */; };
+		19645DE31C4DADF100798506 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DE21C4DADF100798506 /* AudioToolbox.framework */; };
+		19645DE51C4DAE0000798506 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DE41C4DAE0000798506 /* CFNetwork.framework */; };
+		19645DE71C4DAE0C00798506 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DE61C4DAE0C00798506 /* CoreGraphics.framework */; };
+		19645DE91C4DAE8100798506 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DE81C4DAE8100798506 /* QuartzCore.framework */; };
+		19645DEB1C4DAE8B00798506 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DEA1C4DAE8B00798506 /* Security.framework */; };
+		19645DEF1C4DAEB700798506 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DEE1C4DAEB700798506 /* SystemConfiguration.framework */; };
+		19645DF11C4DAEC700798506 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DF01C4DAEC700798506 /* libz.tbd */; };
+		19645DF31C4DAED000798506 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19645DF21C4DAED000798506 /* libsqlite3.tbd */; };
+		1972815D1D3BFEA60057EA12 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972815C1D3BFEA60057EA12 /* ErrorViewController.swift */; };
+		19867EB01C4D8B4500F0B431 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19867EAF1C4D8B4500F0B431 /* QuestionViewController.swift */; };
+		19867EB21C4D902900F0B431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19867EB11C4D902900F0B431 /* Main.storyboard */; };
+		1999D1711CFA101F0012C53C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1999D1701CFA101F0012C53C /* Social.framework */; };
+		19C991291CDE74CE00EC67A9 /* FrostedSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C991281CDE74CE00EC67A9 /* FrostedSidebar.swift */; };
+		19DFEC5C1D0B6321006E077E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFEC5B1D0B6321006E077E /* ScoreView.swift */; };
+		19F45ABB1D19E07C00D1A081 /* ReachabilitySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F45ABA1D19E07C00D1A081 /* ReachabilitySwift.swift */; };
+		19F45ABD1D19E21600D1A081 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F45ABC1D19E21600D1A081 /* Connection.swift */; };
+		6677578775E3D17C12BE0C8D /* Pods_Game_Vote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D95F42695D3F846F188011 /* Pods_Game_Vote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190951221C628F7D0040CC91 /* AddQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
+		190D648A1CDE5F3D00BFC457 /* DrawHamburger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawHamburger.swift; sourceTree = "<group>"; };
+		190D648C1CDE5F7300BFC457 /* CustomBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBarButtonItem.swift; sourceTree = "<group>"; };
+		19316A6A1CF0D0130060DEBD /* DrawButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawButton.swift; sourceTree = "<group>"; };
+		19316A6C1CF0D0400060DEBD /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1936F9D51C51B01100DA5DF6 /* AddGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
 		193C218E1C4C4EA600153F0B /* Game Vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Vote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		193C21911C4C4EA600153F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		193C21931C4C4EA600153F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		193C21961C4C4EA600153F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		193C21981C4C4EA600153F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		193C219B1C4C4EA600153F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193C219D1C4C4EA600153F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1943B8ED1D08D628003EA48D /* ScoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreHelper.swift; sourceTree = "<group>"; };
+		1951E78B1CD17B4200465DCE /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		195229791C5584AE00507706 /* SelectedQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedQuestionViewController.swift; sourceTree = "<group>"; };
+		19645DDE1C4DAD4800798506 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		19645DE01C4DAD6500798506 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		19645DE21C4DADF100798506 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		19645DE41C4DAE0000798506 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		19645DE61C4DAE0C00798506 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19645DE81C4DAE8100798506 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		19645DEA1C4DAE8B00798506 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		19645DEE1C4DAEB700798506 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19645DF01C4DAEC700798506 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		19645DF21C4DAED000798506 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1972815C1D3BFEA60057EA12 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		19867EAF1C4D8B4500F0B431 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		19867EB11C4D902900F0B431 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1999D1701CFA101F0012C53C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		19C991281CDE74CE00EC67A9 /* FrostedSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrostedSidebar.swift; sourceTree = "<group>"; };
+		19DFEC5B1D0B6321006E077E /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		19F45ABA1D19E07C00D1A081 /* ReachabilitySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilitySwift.swift; sourceTree = "<group>"; };
+		19F45ABC1D19E21600D1A081 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		43D95F42695D3F846F188011 /* Pods_Game_Vote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game_Vote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		577161B6B275E68EAFD53EE5 /* Pods-Game Vote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Vote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Game Vote/Pods-Game Vote.release.xcconfig"; sourceTree = "<group>"; };
+		6692AF3D36654A48FEF8B954 /* Pods-Game Vote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Vote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Game Vote/Pods-Game Vote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1999D1711CFA101F0012C53C /* Social.framework in Frameworks */,
+				19645DF31C4DAED000798506 /* libsqlite3.tbd in Frameworks */,
+				19645DF11C4DAEC700798506 /* libz.tbd in Frameworks */,
+				19645DEF1C4DAEB700798506 /* SystemConfiguration.framework in Frameworks */,
+				19645DEB1C4DAE8B00798506 /* Security.framework in Frameworks */,
+				19645DE91C4DAE8100798506 /* QuartzCore.framework in Frameworks */,
+				19645DE71C4DAE0C00798506 /* CoreGraphics.framework in Frameworks */,
+				19645DE51C4DAE0000798506 /* CFNetwork.framework in Frameworks */,
+				19645DE31C4DADF100798506 /* AudioToolbox.framework in Frameworks */,
+				19645DE11C4DAD6500798506 /* Parse.framework in Frameworks */,
+				19645DDF1C4DAD4800798506 /* Bolts.framework in Frameworks */,
+				6677578775E3D17C12BE0C8D /* Pods_Game_Vote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +106,10 @@
 		193C21851C4C4EA600153F0B = {
 			isa = PBXGroup;
 			children = (
+				19645DDD1C4DAD2F00798506 /* Frameworks */,
 				193C21901C4C4EA600153F0B /* Game Vote */,
 				193C218F1C4C4EA600153F0B /* Products */,
+				26A3D20914E5CE28438DFA3A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +126,55 @@
 			children = (
 				193C21911C4C4EA600153F0B /* AppDelegate.swift */,
 				193C21931C4C4EA600153F0B /* ViewController.swift */,
-				193C21951C4C4EA600153F0B /* Main.storyboard */,
+				19F45ABA1D19E07C00D1A081 /* ReachabilitySwift.swift */,
+				1936F9D51C51B01100DA5DF6 /* AddGameViewController.swift */,
+				190951221C628F7D0040CC91 /* AddQuestionViewController.swift */,
+				19867EAF1C4D8B4500F0B431 /* QuestionViewController.swift */,
+				19F45ABC1D19E21600D1A081 /* Connection.swift */,
+				195229791C5584AE00507706 /* SelectedQuestionViewController.swift */,
+				19316A6A1CF0D0130060DEBD /* DrawButton.swift */,
+				19316A6C1CF0D0400060DEBD /* CustomButton.swift */,
+				1943B8ED1D08D628003EA48D /* ScoreHelper.swift */,
+				190D648A1CDE5F3D00BFC457 /* DrawHamburger.swift */,
+				190D648C1CDE5F7300BFC457 /* CustomBarButtonItem.swift */,
+				19C991281CDE74CE00EC67A9 /* FrostedSidebar.swift */,
+				1951E78B1CD17B4200465DCE /* ChatViewController.swift */,
+				19DFEC5B1D0B6321006E077E /* ScoreView.swift */,
+				1972815C1D3BFEA60057EA12 /* ErrorViewController.swift */,
+				19867EB11C4D902900F0B431 /* Main.storyboard */,
 				193C21981C4C4EA600153F0B /* Assets.xcassets */,
 				193C219A1C4C4EA600153F0B /* LaunchScreen.storyboard */,
 				193C219D1C4C4EA600153F0B /* Info.plist */,
 			);
 			path = "Game Vote";
+			sourceTree = "<group>";
+		};
+		19645DDD1C4DAD2F00798506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1999D1701CFA101F0012C53C /* Social.framework */,
+				19645DF21C4DAED000798506 /* libsqlite3.tbd */,
+				19645DF01C4DAEC700798506 /* libz.tbd */,
+				19645DEE1C4DAEB700798506 /* SystemConfiguration.framework */,
+				19645DEA1C4DAE8B00798506 /* Security.framework */,
+				19645DE81C4DAE8100798506 /* QuartzCore.framework */,
+				19645DE61C4DAE0C00798506 /* CoreGraphics.framework */,
+				19645DE41C4DAE0000798506 /* CFNetwork.framework */,
+				19645DE21C4DADF100798506 /* AudioToolbox.framework */,
+				19645DE01C4DAD6500798506 /* Parse.framework */,
+				19645DDE1C4DAD4800798506 /* Bolts.framework */,
+				43D95F42695D3F846F188011 /* Pods_Game_Vote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A3D20914E5CE28438DFA3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6692AF3D36654A48FEF8B954 /* Pods-Game Vote.debug.xcconfig */,
+				577161B6B275E68EAFD53EE5 /* Pods-Game Vote.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 193C21A01C4C4EA600153F0B /* Build configuration list for PBXNativeTarget "Game Vote" */;
 			buildPhases = (
+				1ED1378B8442498D47A0F92A /* Check Pods Manifest.lock */,
 				193C218A1C4C4EA600153F0B /* Sources */,
 				193C218B1C4C4EA600153F0B /* Frameworks */,
 				193C218C1C4C4EA600153F0B /* Resources */,
+				4159EC063BE51F0C12EFF23C /* Embed Pods Frameworks */,
+				7005E3E945FCE3F009CF4CA2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +212,12 @@
 				TargetAttributes = {
 					193C218D1C4C4EA600153F0B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LCX682S6EY;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,35 +244,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19867EB21C4D902900F0B431 /* Main.storyboard in Resources */,
 				193C219C1C4C4EA600153F0B /* LaunchScreen.storyboard in Resources */,
 				193C21991C4C4EA600153F0B /* Assets.xcassets in Resources */,
-				193C21971C4C4EA600153F0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED1378B8442498D47A0F92A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4159EC063BE51F0C12EFF23C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Game Vote/Pods-Game Vote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7005E3E945FCE3F009CF4CA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Game Vote/Pods-Game Vote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		193C218A1C4C4EA600153F0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1936F9D61C51B01100DA5DF6 /* AddGameViewController.swift in Sources */,
+				190D648B1CDE5F3D00BFC457 /* DrawHamburger.swift in Sources */,
 				193C21941C4C4EA600153F0B /* ViewController.swift in Sources */,
+				190951231C628F7D0040CC91 /* AddQuestionViewController.swift in Sources */,
+				1943B8EE1D08D628003EA48D /* ScoreHelper.swift in Sources */,
+				1951E78C1CD17B4200465DCE /* ChatViewController.swift in Sources */,
+				1952297A1C5584AE00507706 /* SelectedQuestionViewController.swift in Sources */,
 				193C21921C4C4EA600153F0B /* AppDelegate.swift in Sources */,
+				19867EB01C4D8B4500F0B431 /* QuestionViewController.swift in Sources */,
+				19316A6D1CF0D0400060DEBD /* CustomButton.swift in Sources */,
+				19316A6B1CF0D0130060DEBD /* DrawButton.swift in Sources */,
+				19F45ABD1D19E21600D1A081 /* Connection.swift in Sources */,
+				19F45ABB1D19E07C00D1A081 /* ReachabilitySwift.swift in Sources */,
+				19DFEC5C1D0B6321006E077E /* ScoreView.swift in Sources */,
+				19C991291CDE74CE00EC67A9 /* FrostedSidebar.swift in Sources */,
+				1972815D1D3BFEA60057EA12 /* ErrorViewController.swift in Sources */,
+				190D648D1CDE5F7300BFC457 /* CustomBarButtonItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		193C21951C4C4EA600153F0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				193C21961C4C4EA600153F0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		193C219A1C4C4EA600153F0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -245,23 +422,39 @@
 		};
 		193C21A11C4C4EA600153F0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6692AF3D36654A48FEF8B954 /* Pods-Game Vote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Game Vote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kreeapps.Game-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		193C21A21C4C4EA600153F0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577161B6B275E68EAFD53EE5 /* Pods-Game Vote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Game Vote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kreeapps.Game-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +477,7 @@
 				193C21A21C4C4EA600153F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

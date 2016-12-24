@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.enableLocalDatastore()
+        
+        Parse.setApplicationId("XxplzPBH8I1R49dVEGVweoMlVfa0ub5yu234yLaP", clientKey: "9oHHYeeGq8KkHxUwlhqbVHnGv6U22PAp0KWMf6TW")
+        
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0/255, green: 148/255, blue: 62/255, alpha: 0.89/255)
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        UINavigationBar.appearance().translucent = false
+        
+        //UIToolbar.appearance().barTintColor = UIColor(red: 0/255, green: 148/255, blue: 62/255, alpha: 0.89/255)
+        //UIToolbar.appearance().tintColor = UIColor.whiteColor()
+
+        
+        
         return true
     }
 
